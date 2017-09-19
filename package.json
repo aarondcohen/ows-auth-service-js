@@ -1,0 +1,16 @@
+{
+  "name": "ows-auth-service",
+  "version": "0.0.1",
+  "author": {
+		"name": "Aaron Cohen",
+		"email": "aarondcohen@gmail.com>"
+	},
+  "license": "TBD",
+  "scripts": {
+    "start": "node bin/server.js"
+  },
+  "dependencies": {
+    "koa": "^2.3.0",
+    "koa-router": "^7.2.1"
+  }
+}

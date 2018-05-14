@@ -10,6 +10,7 @@
     "start": "node bin/server.js"
   },
   "dependencies": {
+		"id128": "*",
     "koa": "^2.3.0",
     "koa-router": "^7.2.1"
   }

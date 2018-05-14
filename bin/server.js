@@ -12,6 +12,7 @@ const HOST = '0.0.0.0';
 const app = new Koa;
 const router = new Router;
 
+// Build documentation
 router
 	.get('/', function(ctx) {
 		ctx.body = [
